@@ -1,1 +1,188 @@
-/* Put your style information here! */
+.navbar-nav li, .navbar-nav a{
+  font-family: Helvetica Bold, sans-serif;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar .navbar-brand .img-fluid{
+  max-height: 70px;
+  padding-right: 10px;
+
+}
+
+.navbar .navbar-brand {
+  padding-left: 0px;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-brand h2{
+	color:#201A1D;
+	font-size: 25px;
+}
+
+.navbar-nav a:hover{
+    color: #C78155;
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+}
+
+.gif{
+	width: 50%;
+}
+
+.info{
+	background-color: #201A1D;
+	color:#D2D5E0;
+	padding: 40px;
+}
+
+.infopar{
+	text-align: center;
+	padding: 3%;
+	font-size: 1.5rem;
+}
+
+.buttons{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+
+}
+.login{
+	border: 1px solid #707070;
+	display: flex;
+	flex-direction:column;
+	background-color: #201A1D;
+	height: 300px;
+	width: 250px;
+	margin: 15px 15px 15px 15px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.login button{
+	text-transform: uppercase;
+	padding: 15px;
+	margin: 15px;
+	align-items: center;
+	width: 75%;
+}
+
+.otp{
+	border: 1px solid #707070;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 15px 15px 15px;
+	min-height: 300px;
+}
+
+.otp a:hover{
+	color: #C78155;
+	text-decoration: none;
+}
+
+
+.otp h3{
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+.otpmenu{
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.otpitem{
+	padding-bottom: 1.5rem;
+}
+
+.otpitem a{
+	text-align: center;
+	font-size: 1.25rem;
+	color: #D2D5E0;
+	padding-top: 15px;
+	text-decoration: none;
+}
+
+.meat{
+	display: flex;
+	flex-flow: column;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.heading{
+	padding: 35px 15px 20px 30px;
+	font-size: 1.75rem;
+	text-shadow: 2px 2px #C78155;
+	color: #D2D5E0;
+	text-transform: uppercase;
+}
+
+.subheading{
+	padding: 35px 15px 15px 30px;
+	font-size: 1.25rem;
+	color: #D2D5E0;
+}
+
+.post{
+	padding: 30px 10px 30px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.flyer{
+	width: 40%;
+	min-width: 300px;
+	height: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #201A1D;
+	padding: 40px 40px 40px 40px;
+
+}
+
+.dbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #201A1D;
+	color: #D2D5E0;
+	padding: 40px 20px 40px 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 30%;
+	min-width: 250px;
+	height: 30rem;
+}
+
+.dbox h6{
+	font-size: .7rem;
+}
+.dbox h4{
+	font-size: 1.25rem;
+}
+.dbox p{
+	font-size: .9rem;
+}
+
+.dbox a{
+	font-size: .7rem;
+	color: #D2D5E0;
+}
